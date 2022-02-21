@@ -4,8 +4,14 @@
 Script to train a resnet
 to determine if a Stokes-I radio cutout
 contains a giant radio galaxy candidate.
-Based on:
-    https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+
+Copyright (c) 2022 Rafael Mostert
+See LICENSE.md in root directory for full BSD-3 license.
+
+Adapted from
+Author: Sasank Chilamkurthy
+License: BSD
+Source: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
 """
 
 

@@ -4,13 +4,23 @@
 Script to visualise the predictions of a Conv net
 trained to determine if a Stokes-I radio cutout
 contains a giant radio galaxy candidate.
-
 Includes an attempt at attributing which features
 of the input image are predominantly responsible for triggering
 the class prediction.
-Based on:
-    https://captum.ai/tutorials/Resnet_TorchVision_Interpret
-    https://captum.ai/tutorials/Resnet_TorchVision_Ablation
+
+Copyright (c) 2022 Rafael Mostert
+See LICENSE.md in root directory for full BSD-3 license.
+
+Adapted from
+Author: Sasank Chilamkurthy
+License: BSD
+Source: https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html
+and
+Author: Pytorch team 2019, Captum
+License: BSD-3
+Source:
+https://captum.ai/tutorials/Resnet_TorchVision_Interpret
+https://captum.ai/tutorials/Resnet_TorchVision_Ablation
 """
 
 # Imports
